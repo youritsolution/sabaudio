@@ -33,10 +33,11 @@ If you weren't directly invited but want to help test, email [support@youritsolu
 - [ ] **EQ presets** — change presets while playing; verify it applies in real time
 - [ ] **Pure Mode** — Settings → Audiophile → enable; verify EQ + crossfade are visibly disabled
 - [ ] **Crossfade** — Settings → Playback → enable crossfade, set 6 seconds; play through end of one track to next
-- [ ] **CarPlay** — if your car supports CarPlay, plug in and verify SAB Audio appears
 - [ ] **iPad split view** — open on iPad, verify the sidebar layout
 - [ ] **Listening history** — Settings → Maintenance → Listening History after listening for a while
 - [ ] **Pin offline** — pin a track for offline, then enable Airplane Mode and verify it still plays
+
+> **Note:** CarPlay support is **not** in this beta. It's planned for the v1.1 Pro update along with album-artwork auto-fetch. Please don't include CarPlay-related issues in your feedback for this beta.
 
 ## What We Need From You
 

@@ -569,13 +569,32 @@ SAB Audio supports any audio format recognized by Apple's AVFoundation framework
 - Try using **Import Folder** to select the parent folder
 - If scanning gets stuck, files that take too long to read will be added with the filename as title
 
+### Album artwork not showing — placeholder music note instead
+SAB Audio v1.0 only displays artwork that is **embedded inside the audio file's metadata**. If you ripped or downloaded a file without embedded cover art (very common for low-bitrate MP3s and YouTube-sourced tracks), the placeholder is shown.
+
+Two options:
+
+1. **Embed artwork into the file** — use any tag editor (Mp3tag on Windows/Mac, Kid3, MusicBrainz Picard) to add a cover image to the file's metadata. The next time SAB Audio re-reads the file it will show the cover.
+2. **Wait for v1.1 Pro** — the upcoming Pro update adds an opt-in MusicBrainz Cover Art Archive lookup that fetches covers automatically for tracks without embedded art.
+
+This is intentional behavior for v1.0: keeping artwork strictly local means no network calls happen just from browsing your library.
+
 ---
 
 ## Coming in Future Updates
 
+**v1.1 (Pro upgrade — one-time in-app purchase):**
+
 - **CarPlay** -- control SAB Audio from your car display
+- **Automatic album-artwork lookup** via the MusicBrainz Cover Art Archive
+- Future Pro-tier audiophile features
+
+**Roadmap (no firm date):**
+
 - **Widgets** -- Now Playing widget for lock screen and home screen
-- **Chapter Support** -- navigate chapters in .m4b audiobook files
+- **Live Activities** -- Dynamic Island and lock-screen activity progress
+
+> Chapter navigation in .m4b audiobook files already ships in v1.0 — see the Audiobooks section above.
 
 ---
 

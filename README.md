@@ -25,8 +25,16 @@ An iCloud-native hi-fi audio player for **iPhone** and **iPad** that plays the m
 - **Library hygiene** — Find Duplicates, Repair Broken Links, Tag Editor with user-edit flag preservation
 - **Listening history timeline** with streaks and top artist
 - **Continue Listening shelf** for resumable items
-- **AirPlay**, lock-screen controls, **CarPlay** *(where Apple's entitlement is approved)*, **Siri Shortcuts**
+- **AirPlay**, lock-screen controls, **Siri Shortcuts**
 - **No analytics, no ads, no tracking** — Last.fm and MusicBrainz integrations are off by default
+
+> **Coming in v1.1 (Pro):** CarPlay support, automatic album-artwork lookup via the MusicBrainz Cover Art Archive, and additional power-user features. v1.0 is free and feature-complete on its own; the Pro upgrade will be a one-time in-app purchase.
+
+## A Note on Album Artwork
+
+SAB Audio v1.0 displays the artwork that is **embedded inside each audio file** (the cover image written into the file's metadata tags). Files that were ripped or downloaded without embedded artwork — common with low-bitrate MP3s and many YouTube-sourced tracks — will show a music-note placeholder rather than a cover image.
+
+Automatic online cover-art lookup against the MusicBrainz Cover Art Archive is planned for the **v1.1 Pro update**, alongside CarPlay support. Once Pro is enabled, SAB Audio will be able to fetch and cache covers for tracks whose files do not carry embedded art.
 
 ## Privacy First
 
